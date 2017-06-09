@@ -1,0 +1,33 @@
+
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Include SDK - Using SoundCloud API</title>
+    <script src="https://connect.soundcloud.com/sdk/sdk-3.1.2.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+  </head>
+  <body>
+    <h1>SoundCloud API usage &mdash; JavaScript SDK</h1>
+    <script type="text/javascript">
+      SC.initialize({
+        client_id: 'I6pz7m0JYMYB6Qq694eyPjWAvj3rwn0q',
+        redirect_uri: ''
+      });
+    </script>
+    
+    <div id="player">
+      <script type="text/javascript">
+        SC.oEmbed('https://soundcloud.com/retiform-125708723/you-missed-it', {
+          auto_play: true
+        }).then(function(res) {
+                $("#player").html(res.html);
+        });
+
+      </script>
+    </div>
+
+  </body>
+
+</html>

@@ -1,0 +1,23 @@
+{
+  "name": "draconari",
+  "version": "1.0.0",
+  "description": "sc api & sdk practice",
+  "main": "index.js",
+  "directories": {
+    "example": "examples",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamretiform/DRACONARI.git"
+  },
+  "author": "Scott Plunkett",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iamretiform/DRACONARI/issues"
+  },
+  "homepage": "https://github.com/iamretiform/DRACONARI#readme"
+}
